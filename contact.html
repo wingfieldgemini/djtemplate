@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | BassDropNZ</title>
+  <meta name="description" content="Get in touch with BassDropNZ for bookings, press, and general inquiries.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">BassDropNZ</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="mixes.html">Mixes</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="nav-overlay"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal">Get in <span>Touch</span></h1>
+      <p class="reveal">Bookings, press, collabs — let's talk</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- Contact Form -->
+        <div class="reveal-left">
+          <h3 style="font-size:1.2rem;margin-bottom:1.5rem;color:var(--neon-cyan)">Send a Message</h3>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <select id="contact-subject">
+                <option value="" disabled selected>What's this about?</option>
+                <option value="booking">Booking Inquiry</option>
+                <option value="press">Press / Media</option>
+                <option value="collab">Collaboration</option>
+                <option value="general">General</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" placeholder="Your message..." required></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal-right">
+          <h3>Contact Info</h3>
+          <p>For booking inquiries, use the <a href="booking.html">booking form</a> for faster response. For everything else, drop a message here or reach out directly.</p>
+
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <div class="icon-box">✉️</div>
+              <div class="detail-text">
+                <div class="label">Email</div>
+                <div class="value">hello@bassdropnz.com</div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="icon-box">📱</div>
+              <div class="detail-text">
+                <div class="label">Phone</div>
+                <div class="value">+64 21 XXX XXXX</div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="icon-box">📍</div>
+              <div class="detail-text">
+                <div class="label">Based In</div>
+                <div class="value">Auckland, New Zealand</div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="icon-box">🎵</div>
+              <div class="detail-text">
+                <div class="label">Management</div>
+                <div class="value">BassDropNZ Management</div>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="margin-top:2rem">Follow &amp; Connect</h3>
+          <div class="social-links-grid" style="margin-top:1rem">
+            <a href="#" class="social-link">🎵 SoundCloud</a>
+            <a href="#" class="social-link">🎧 Spotify</a>
+            <a href="#" class="social-link">📸 Instagram</a>
+            <a href="#" class="social-link">📘 Facebook</a>
+            <a href="#" class="social-link">🐦 Twitter / X</a>
+            <a href="#" class="social-link">🎬 YouTube</a>
+            <a href="#" class="social-link">💬 Discord</a>
+            <a href="#" class="social-link">🎵 Beatport</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>BassDropNZ</h3>
+          <p>DJ &amp; Producer based in Aotearoa New Zealand. Bringing bass-heavy electronic music to dancefloors since 2018.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <p><a href="about.html">About</a></p>
+          <p><a href="mixes.html">Mixes</a></p>
+          <p><a href="events.html">Events</a></p>
+          <p><a href="booking.html">Booking</a></p>
+          <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <div class="footer-social">
+            <a href="#" title="SoundCloud">SC</a>
+            <a href="#" title="Spotify">SP</a>
+            <a href="#" title="Instagram">IG</a>
+            <a href="#" title="Facebook">FB</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BassDropNZ. All rights reserved. | Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

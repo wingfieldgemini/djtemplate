@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking | BassDropNZ</title>
+  <meta name="description" content="Book BassDropNZ for your event — festivals, clubs, private parties.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">BassDropNZ</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="mixes.html">Mixes</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="nav-overlay"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal">Book <span>BassDropNZ</span></h1>
+      <p class="reveal">Let's make your event unforgettable</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="booking-layout">
+
+        <!-- Booking Form -->
+        <div class="reveal-left">
+          <h3 style="font-size:1.3rem;margin-bottom:1.5rem;color:var(--neon-cyan)">Booking Inquiry</h3>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Full name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="event-type">Event Type</label>
+                <select id="event-type" required>
+                  <option value="" disabled selected>Select event type</option>
+                  <option value="festival">Festival</option>
+                  <option value="club">Club Night</option>
+                  <option value="private">Private Party</option>
+                  <option value="corporate">Corporate Event</option>
+                  <option value="wedding">Wedding</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="event-date">Event Date</label>
+                <input type="date" id="event-date" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="venue">Venue / Location</label>
+                <input type="text" id="venue" placeholder="Venue name & city">
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget Range (NZD)</label>
+                <select id="budget">
+                  <option value="" disabled selected>Select range</option>
+                  <option value="under-500">Under $500</option>
+                  <option value="500-1000">$500 – $1,000</option>
+                  <option value="1000-2500">$1,000 – $2,500</option>
+                  <option value="2500-5000">$2,500 – $5,000</option>
+                  <option value="5000+">$5,000+</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="genre-pref">Genre Preference</label>
+              <select id="genre-pref">
+                <option value="" disabled selected>What vibe are you after?</option>
+                <option value="house">House / Deep House</option>
+                <option value="techno">Techno</option>
+                <option value="dnb">Drum & Bass</option>
+                <option value="mixed">Mixed / Open Format</option>
+                <option value="chill">Chill / Ambient</option>
+                <option value="other">Other — describe below</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Additional Details</label>
+              <textarea id="message" placeholder="Tell me about your event — expected crowd size, set length, any special requests..."></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" style="width:100%">Submit Inquiry</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Booking Info -->
+        <div class="reveal-right">
+          <div class="booking-info">
+            <h3>Rates</h3>
+            <p>Rates vary depending on event type, duration, location, and requirements. Here's a general guide:</p>
+            <div class="rates-grid">
+              <div class="rate-item">
+                <span class="rate-type">Club Night (2hrs)</span>
+                <span class="rate-price">From $500</span>
+              </div>
+              <div class="rate-item">
+                <span class="rate-type">Festival Set (1-3hrs)</span>
+                <span class="rate-price">From $1,500</span>
+              </div>
+              <div class="rate-item">
+                <span class="rate-type">Private Event</span>
+                <span class="rate-price">From $800</span>
+              </div>
+              <div class="rate-item">
+                <span class="rate-type">Corporate</span>
+                <span class="rate-price">From $2,000</span>
+              </div>
+              <div class="rate-item">
+                <span class="rate-type">Full Night (5hrs+)</span>
+                <span class="rate-price">From $3,000</span>
+              </div>
+            </div>
+
+            <div class="glow-line"></div>
+
+            <h3>Technical Rider</h3>
+            <p>Standard requirements for a smooth performance:</p>
+            <ul class="rider-list">
+              <li>2x Pioneer CDJ-3000 or CDJ-2000NXS2</li>
+              <li>1x Pioneer DJM-900NXS2 or Allen &amp; Heath Xone:96</li>
+              <li>Professional monitor speakers (booth)</li>
+              <li>Stable power supply with surge protection</li>
+              <li>Covered DJ booth (for outdoor events)</li>
+              <li>Minimum 2 hours soundcheck access</li>
+              <li>Hospitality: water, towel, secure storage</li>
+            </ul>
+
+            <div class="glow-line"></div>
+
+            <h3>What's Included</h3>
+            <ul class="rider-list">
+              <li>Professional DJ set for agreed duration</li>
+              <li>Pre-event consultation on music style</li>
+              <li>Custom playlist curation for your event</li>
+              <li>Own backup equipment available</li>
+              <li>Travel within NZ (flights extra for South Island)</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>BassDropNZ</h3>
+          <p>DJ &amp; Producer based in Aotearoa New Zealand. Bringing bass-heavy electronic music to dancefloors since 2018.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <p><a href="about.html">About</a></p>
+          <p><a href="mixes.html">Mixes</a></p>
+          <p><a href="events.html">Events</a></p>
+          <p><a href="booking.html">Booking</a></p>
+          <p><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <div class="footer-social">
+            <a href="#" title="SoundCloud">SC</a>
+            <a href="#" title="Spotify">SP</a>
+            <a href="#" title="Instagram">IG</a>
+            <a href="#" title="Facebook">FB</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BassDropNZ. All rights reserved. | Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
